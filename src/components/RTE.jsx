@@ -19,7 +19,7 @@ export default function RTE({
           render={({ field: { onChange } }) => (
             <Editor
               initialValue={defaultValue}
-              apiKey="x8uxo8c06pis5kpc27hcalmj1ehreqk0z8o7y38kx3fbfzzq"
+              apiKey={import.meta.env.VITE_TINYMCE_API_KEY}
               init={{
                 // initialValue: defaultValue,
                 height: 500,
