@@ -1,12 +1,12 @@
 import React from "react";
-import icons from "../public/icons.png";
+// import icons from "../public/icons.png";
 
 function Logo({ width = "100px" }) {
   return (
     <>
       <div>
         <img
-          src={icons}
+          src="/icons.png"
           alt=" LOGO"
           srcset=""
           height={50}
