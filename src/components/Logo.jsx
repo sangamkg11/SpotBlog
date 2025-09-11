@@ -10,7 +10,7 @@ function Logo({ width = "100px" }) {
           srcset=""
           height={50}
           width={70}
-          className="mt- pt-0"
+          className="mt-0 pt-0"
         />
       </div>
     </>
